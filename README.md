@@ -1,3 +1,3 @@
-# TITLE
-+ balabala
-## title2
++ `tar xvf vim.tar.gz`
++ `cp .vim ~/`
++ `cp vimrc ~/`
