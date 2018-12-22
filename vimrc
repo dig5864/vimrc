@@ -106,17 +106,17 @@ Plug 'Yggdroot/LeaderF', { 'do': './install.sh' }
 Plug 'dyng/ctrlsf.vim'
 "Plug 'ggreer/the_silver_searcher'
 
-if has('nvim')
-    Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
-else
-    Plug 'Shougo/deoplete.nvim'
-    Plug 'roxma/nvim-yarp'
-    Plug 'roxma/vim-hug-neovim-rpc'
-    Plug 'zchee/deoplete-jedi'
-endif
-if has('python3')
-    let g:deoplete#enable_at_startup = 1
-endif
+"if has('nvim')
+"    Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
+"else
+"    Plug 'Shougo/deoplete.nvim'
+"    Plug 'roxma/nvim-yarp'
+"    Plug 'roxma/vim-hug-neovim-rpc'
+"    Plug 'zchee/deoplete-jedi'
+"endif
+"if has('python3')
+"    let g:deoplete#enable_at_startup = 1
+"endif
 " Plug 'ctrlpvim/ctrlp.vim'
 "Plug 'tammersaleh/vim-align'
 "Plug 'tpope/vim-sensible'
